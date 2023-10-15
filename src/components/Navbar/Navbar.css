@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #333; /* Navbar background color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding for the navbar */
+  }
+  
+  .nav-list {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove padding for the list */
+    margin: 0; /* Remove margin for the list */
+    display: flex; /* Display items horizontally */
+  }
+  
+  .nav-list li {
+    margin-right: 15px; /* Margin between list items */
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0; /* Remove margin for the last list item */
+  }
+  
+  .nav-list li a {
+    color: white; /* Text color for the links */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 16px; /* Padding for the links */
+  }
+  
+  .nav-list li a:hover {
+    background-color: #555; /* Background color on hover */
+    border-radius: 5px; /* Optional: Rounded corners on hover */
+  }
+  
